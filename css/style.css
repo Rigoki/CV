@@ -1,0 +1,395 @@
+/* General */
+
+body {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+section {
+    padding: 3em 0 4em 0;
+}
+
+.divider {
+    width: 100px;
+    height: 2px;
+    background-color: #112fdb;
+    margin: 0 auto 2em;
+}
+
+.divider.white {
+    background-color: white;
+}
+
+.heading h2 {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*NAVBAR*/
+
+.navbar {
+    background: #112fdb;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #112fdb;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 5px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-link {
+    color: white!important;
+    margin: 0 6px;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    background-color: #4c65f6;
+    ;
+    color: white!important;
+}
+
+
+/*section about*/
+
+#about {
+    background-color: #112fdb;
+}
+
+.ppict img {
+    margin: 2em 0;
+    box-shadow: rgba(240, 240, 240, 0.068) 15px 10px 15px;
+}
+
+#about h1 {
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 0.5rem;
+    text-shadow: black 2px 2px 3px;
+}
+
+#about h3 {
+    color: white;
+    text-shadow: black 3px 2px 1px;
+}
+
+.btn1 {
+    text-transform: uppercase;
+    border-color: white;
+    background-color: #4c65f6;
+    font-weight: bold;
+    box-shadow: rgba(24, 71, 24, 0.5) 5px 5px 5px;
+    text-shadow: #112fdb 2px 2px 1px;
+}
+
+.btn1:hover {
+    text-shadow: rgba(0, 0, 0, 0.705) 1px 1px 1px;
+    box-shadow: rgba(240, 240, 240, 0.2) 5px 5px 5px;
+}
+
+
+/*Section Skills*/
+
+#skills h2 {
+    color: #112fdb;
+    text-shadow: black 2px 1px 1px;
+}
+
+#skills .progress {
+    height: 45px;
+    margin: 2rem 1rem;
+    box-shadow: black 4px 4px 3px;
+}
+
+#skills .progress:last-child {
+    margin-bottom: 0;
+}
+
+#skills .progress-bar {
+    background-color: #112fdb;
+}
+
+#skills h5 {
+    font-size: 1.4em;
+    text-shadow: black 2px 2px 1px;
+    margin-top: 0.5em;
+}
+
+
+/* Section EXP*/
+
+#exp {
+    background-color: #112fdb;
+}
+
+#exp .heading h2 {
+    color: white;
+    text-shadow: black 2px 2px 1px;
+}
+
+#exp h3 {
+    color: #112fdb;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#exp p {
+    color: black;
+}
+
+#exp h4 {
+    color: #112fdb
+}
+
+.timeline {
+    padding: 30px 10px;
+    position: relative;
+}
+
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 5px;
+    background-color: white;
+    left: 50%;
+    margin-left: -2.5px;
+}
+
+.timeline>li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline>li:after {
+    clear: both;
+}
+
+.timeline li .timeline-badge {
+    color: #112fdb;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 1px white;
+}
+
+.timeline-panel-container {
+    width: 50%;
+    float: left;
+}
+
+.timeline-panel-container-inverted {
+    width: 50%;
+    float: right;
+}
+
+.timeline-panel {
+    width: 90%;
+    float: right;
+    margin-right: 40px;
+    border: 1px solid #d4d4d4;
+    border-radius: 7px;
+    padding: 20px 25px;
+    position: relative;
+    box-shadow: rgba(240, 240, 240, 0.12) 5px 5px 5px;
+    background: white;
+}
+
+.timeline-panel-container-inverted .timeline-panel {
+    float: left;
+    margin-left: 40px;
+}
+
+.timeline-panel:after {
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid white;
+    border-right: 0 solid white;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+
+.timeline-panel-container-inverted .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+
+/*Formation*/
+
+#education a {
+    text-decoration: none;
+    color: #112fdb;
+}
+
+#education h2 {
+    color: #112fdb;
+    text-shadow: #4c65f6 2px 1px 1px;
+    margin: 15px 0;
+}
+
+.education-block {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+    background: #e9ecef;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    box-shadow: 12px 10px 4px rgba(0, 0, 0, 0.175);
+}
+
+#education p {
+    text-align: left;
+}
+
+.education-block h5 {
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+#education .bi.bi-award-fill {
+    font-size: 35px;
+    color: #112fdb;
+}
+
+.education-block h3 {
+    color: Black;
+    margin: 15px 0;
+}
+
+.education-block h4 {
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+
+/*portfolio*/
+
+#portfolio {
+    background: #112fdb;
+}
+
+#portfolio h2 {
+    color: white;
+    text-shadow: black 2px 2px 1px;
+    margin: 15px 0;
+}
+
+#portfolio img {
+    box-shadow: rgba(0, 0, 0, 0.5) 10px 10px 3px;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%)
+    /* Compatibilité Navigateur basé sur webkit */
+}
+
+#portfolio img:hover {
+    filter: none;
+    -webkit-filter: none;
+}
+
+#portfolio .col-md-4 {
+    margin-bottom: 20px;
+}
+
+
+/*Recommendation*/
+
+#recommendations h2 {
+    color: #112fdb;
+    text-shadow: black 2px 1px 1px;
+    margin: 15px 0;
+}
+
+.carousel-item {
+    padding: 30px 30px 90px;
+    background-color: #4c65f6;
+    border-radius: 50%;
+    height: 300px;
+}
+
+.carousel-item h3 {
+    margin-top: 2em;
+    color: white;
+    font-style: italic;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: #112fdb;
+    padding: 20px 0 40px;
+}
+
+footer i {
+    color: white;
+    text-shadow: black 1px 1px 1px;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+footer i:hover {
+    color: white;
+    font-size: 30px;
+}
+
+footer a,
+footer h5 {
+    color: white;
+    text-shadow: black 1px 1px 1px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    text-shadow: black 1px 1px 1px;
+}
