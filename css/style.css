@@ -27,7 +27,7 @@ section {
 .divider {
     width: 100px;
     height: 2px;
-    background-color: #112fdb;
+    background-color: #141770;
     margin: 0 auto 2em;
 }
 
@@ -48,11 +48,11 @@ ul {
 /*NAVBAR*/
 
 .navbar {
-    background: #112fdb;
+    background: #141770;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
-    border-bottom: 1px solid #112fdb;
+    border-bottom: 1px solid #141770;
     box-shadow: rgba(0, 0, 0, 0.5) 1px 5px 10px;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
@@ -78,7 +78,7 @@ ul {
 /*section about*/
 
 #about {
-    background-color: #112fdb;
+    background-color: #141770;
 }
 
 .ppict img {
@@ -103,8 +103,8 @@ ul {
     border-color: white;
     background-color: #4c65f6;
     font-weight: bold;
-    box-shadow: rgba(24, 71, 24, 0.5) 5px 5px 5px;
-    text-shadow: #112fdb 2px 2px 1px;
+    box-shadow: rgba(240, 240, 240, 0.068) 5px 5px 5px;
+    text-shadow: #141770 2px 2px 1px;
 }
 
 .btn1:hover {
@@ -116,7 +116,7 @@ ul {
 /*Section Skills*/
 
 #skills h2 {
-    color: #112fdb;
+    color: #141770;
     text-shadow: black 2px 1px 1px;
 }
 
@@ -131,7 +131,7 @@ ul {
 }
 
 #skills .progress-bar {
-    background-color: #112fdb;
+    background-color: #141770;
 }
 
 #skills h5 {
@@ -144,7 +144,7 @@ ul {
 /* Section EXP*/
 
 #exp {
-    background-color: #112fdb;
+    background-color: #141770;
 }
 
 #exp .heading h2 {
@@ -153,7 +153,7 @@ ul {
 }
 
 #exp h3 {
-    color: #112fdb;
+    color: #141770;
     margin-top: 5px;
     font-size: 20px;
 }
@@ -163,7 +163,7 @@ ul {
 }
 
 #exp h4 {
-    color: #112fdb
+    color: #141770
 }
 
 .timeline {
@@ -198,7 +198,7 @@ ul {
 }
 
 .timeline li .timeline-badge {
-    color: #112fdb;
+    color: #141770;
     width: 50px;
     line-height: 50px;
     font-size: 20px;
@@ -263,11 +263,11 @@ ul {
 
 #education a {
     text-decoration: none;
-    color: #112fdb;
+    color: #141770;
 }
 
 #education h2 {
-    color: #112fdb;
+    color: #141770;
     text-shadow: #4c65f6 2px 1px 1px;
     margin: 15px 0;
 }
@@ -295,7 +295,7 @@ ul {
 
 #education .bi.bi-award-fill {
     font-size: 35px;
-    color: #112fdb;
+    color: #141770;
 }
 
 .education-block h3 {
@@ -312,7 +312,7 @@ ul {
 /*portfolio*/
 
 #portfolio {
-    background: #112fdb;
+    background: #141770;
 }
 
 #portfolio h2 {
@@ -343,7 +343,7 @@ ul {
 /*Recommendation*/
 
 #recommendations h2 {
-    color: #112fdb;
+    color: #141770;
     text-shadow: black 2px 1px 1px;
     margin: 15px 0;
 }
@@ -365,7 +365,7 @@ ul {
 /*Footer*/
 
 footer {
-    background-color: #112fdb;
+    background-color: #141770;
     padding: 20px 0 40px;
 }
 
